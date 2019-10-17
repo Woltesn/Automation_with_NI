@@ -14,6 +14,6 @@ while True:
                 while a>= 0.1:
                     a-=0.1
                     print(task.write(a))
-                    time.sleep(0.2)
+                    time.sleep(0.5)
         task.stop()
         time.sleep(0.5)
